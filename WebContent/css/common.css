@@ -1,4 +1,27 @@
 @CHARSET "UTF-8";
-.listTable{
+
+/* fujita */
+table.listTable{
 	border: medium solid #0000ff;
 }
+
+.listTable td{
+	border: dotted 1px #0000ff;
+	padding:10px;
+}
+
+.headerMenuTemp{
+	width:100%;
+	height:50px;
+	background-color: orange;
+	margin:0px 0px 10px 0px;
+	text-align:center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+

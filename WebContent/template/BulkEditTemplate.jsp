@@ -5,10 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="../css/common.css">
-<title>Insert title here</title>
+<title>○○一括編集</title>
 </head>
 <body>
-商品ページ
+<div class="headerMenuTemp"><h1>メニュー！！！！</h1></div>
+<div style="padding:10px; font-size:20pt;">商品ページ</div>
 <table align="center" class="listTable">
 	<tr>
 		<th>商品名</th>

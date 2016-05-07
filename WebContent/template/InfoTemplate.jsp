@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>test</title>
+<title>詳細画面モック</title>
 </head>
 <body>
-	<div>
+	<div style="margin:0 auto">
 		<div>
 			<div style="float:left">
 				<img src="../Images/honey01.jpg" />
@@ -41,10 +41,10 @@
 			<div style="margin-top:5px">
 				「はちみつの香水」とも言えるほどの幻想的で華やかな香り。まずはそのままで。バゲット、紅茶にも。<br/>
 				コクのある甘みの中に樹木を思わせる清涼感。力強く華やかな余韻も印象的です。<br/>
-				花をつけるまでに70年以上、蜜を出すまでに100年かかる植物。100年待ったはちみつは、香水のようにエレガントです。<br/>
+				花をつけるまでに70年以上、蜜を出すまでに100年かかる植物。100年待ったはちみつは、香水のようにエレガントです。
 			</div>
 		</div>
-		<div style="text-align:center">
+		<div style="text-align:center; margin-top:50px">
 			<span>
 				<button type="button">戻る</button>
 				<button type="button">編集</button>

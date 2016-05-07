@@ -21,7 +21,43 @@ table.listTable{
 
 
 
+/* haraki */
+div.dimly{
+	background-color: #000;
+	width:100%
+	margin: 0 auto;
+}
 
+div.dimly>div.relative{
+	position: relative;
+}
 
+div.dimly>div.relative>span.absolute{
+	color:#FFF;
+	text-align:center;
+	font-size:12pt;
+	font-weight:bold;
+	white-space: nowrap;
+	position: absolute;
+	top:0px;
+	right:0px;
+	buttom:0px;
+	left:0px;
+	visibility:hidden;
+}
 
+div.dimly:hover>div.relative>img{
+	opacity: 0.3;
+}
 
+div.dimly:hover>div.relative>span.absolute{
+	position: absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	visibility:visible;
+}

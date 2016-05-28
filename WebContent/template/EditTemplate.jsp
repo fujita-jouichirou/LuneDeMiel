@@ -83,14 +83,12 @@
 			</div>
 		</div>
 		<div style="text-align:center;">
-<<<<<<< HEAD
 			<span>
 				<button type="button">変更</button>
 				<button type="button">キャンセル</button>
 			</span>
 		</div>
 	</div>
-=======
 				<span>
 					<button type="button">変更</button>
 					<button type="button">キャンセル</button>

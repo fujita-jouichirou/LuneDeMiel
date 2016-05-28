@@ -88,10 +88,6 @@
 					<button type="button">キャンセル</button>
 				</span>
 			</div>
-<<<<<<< HEAD
 		</div>
-=======
-	</div>
->>>>>>> refs/remotes/origin/master
 </body>
 </html>

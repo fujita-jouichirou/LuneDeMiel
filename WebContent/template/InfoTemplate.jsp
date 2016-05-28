@@ -4,11 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
 <title>詳細画面モック</title>
 </head>
 <body>
-	<div style="margin:0 auto">
-		<div>
+	<div class="headerMenuTemp" style="vertical-align:middle"><h1>メニュー</h1></div>
+	<div style="padding:10px; font-size:20pt;">○○詳細</div>
+	<div class="main">
+		<div class="content">
 			<div style="float:left">
 				<img src="../Images/honey01.jpg" />
 			</div>
@@ -44,7 +47,7 @@
 				花をつけるまでに70年以上、蜜を出すまでに100年かかる植物。100年待ったはちみつは、香水のようにエレガントです。
 			</div>
 		</div>
-		<div style="text-align:center; margin-top:50px">
+		<div style="text-align:center;">
 			<span>
 				<button type="button">戻る</button>
 				<button type="button">編集</button>

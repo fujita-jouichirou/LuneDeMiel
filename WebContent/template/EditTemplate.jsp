@@ -8,8 +8,10 @@
 <title>編集画面モック</title>
 </head>
 <body>
-	<div style="margin:0 auto">
-		<div>
+	<div class="headerMenuTemp" style="vertical-align:middle"><h1>メニュー</h1></div>
+	<div style="padding:10px; font-size:20pt;">○○編集</div>
+	<div class=main>
+		<div class="content">
 			<div class="dimly" style="float:left">
 				<div class="relative">
 					<img src="../Images/honey01.jpg" />
@@ -79,13 +81,13 @@
 					</tr>
 				</table>
 			</div>
-			<div style="text-align:center; margin-top:50px">
+		</div>
+		<div style="text-align:center;">
 				<span>
 					<button type="button">変更</button>
 					<button type="button">キャンセル</button>
 				</span>
 			</div>
-		</div>
 	</div>
 </body>
 </html>

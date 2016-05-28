@@ -82,19 +82,12 @@
 				</table>
 			</div>
 		</div>
-		<div style="text-align:center;">
-			<span>
-				<button type="button">変更</button>
-				<button type="button">キャンセル</button>
-			</span>
-		</div>
 	</div>
-				<span>
-					<button type="button">変更</button>
-					<button type="button">キャンセル</button>
-				</span>
-			</div>
-		</div>
->>>>>>> refs/remotes/origin/master
+	<div style="text-align:center;">
+		<span>
+			<button type="button">変更</button>
+			<button type="button">キャンセル</button>
+		</span>
+	</div>
 </body>
 </html>

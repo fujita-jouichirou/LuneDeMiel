@@ -75,5 +75,21 @@ div.main>div.content{
 	margin: 0px auto 50px auto;
 	width: 90%;
 	padding:15px;
-	border: 5px double #00F;
+	border: 5px double #FF8000;
+	background-color: #FFFFa0
+}
+
+div.view-name{
+	margin: 10px;
+	font-size: 20pt;
+}
+
+div.view-name:before{
+	content: url("../Images/honey_icon01.png");
+	position: relative;
+	top: 7px;
+}
+
+td.item-name:before{
+	content: url("../Images/honey_icon02.png");
 }

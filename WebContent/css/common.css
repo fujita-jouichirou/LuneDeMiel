@@ -2,11 +2,11 @@
 
 /* fujita */
 table.listTable{
-	border: medium solid #0000ff;
+	border: medium solid #c0c0c0;
 }
 
 .listTable td{
-	border: dotted 1px #0000ff;
+	border: dotted 1px #c0c0c0;
 	padding:10px;
 }
 
@@ -19,6 +19,10 @@ table.listTable{
 	vertical-align: middle;
 }
 
+.bottombutton{
+	width: 100%;
+	text-align: center;
+}
 
 
 /* haraki */

@@ -65,3 +65,26 @@ div.dimly:hover>div.relative>span.absolute{
 	transform: translate(-50%,-50%);
 	visibility:visible;
 }
+
+
+
+
+/* obonai */
+.searchConditionTemp{
+	width : 100%;
+	height : 100%;
+	margin : 20px; 0px;
+	line-height: 150%;
+}
+
+table.listTableTemp{
+	border: medium solid #c0c0c0;
+}
+
+.listTableTemp th{
+	padding : 20px;
+}
+
+.listTableTemp tr{
+	padding : 20px;
+}

@@ -10,6 +10,10 @@
 <body>
 <div class="headerMenuTemp"><h1>メニュー！！！！</h1></div>
 <div style="padding:10px; font-size:20pt;">はちみつ</div>
+<div style="margin-bottom: 10px" align="right">
+	<input type="file" name="addfile" size="15"/><br>
+	<input type="button" value="ファイル追加" />
+</div>
 <table class="listTable" style="margin-left: auto; margin-right: auto">
 	<tr>
 		<th>商品名</th>

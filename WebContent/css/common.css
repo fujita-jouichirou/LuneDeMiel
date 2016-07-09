@@ -36,7 +36,7 @@ table.listTable{
 /* haraki */
 div.dimly{
 	background-color: #000;
-	width: 100%
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -106,11 +106,34 @@ td.item-name:before{
 
 
 /* obonai */
-.searchConditionTemp{
-	width : 100%;
-	height : 100%;
-	margin : 20px; 0px;
+div.searchConditionTemp{
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 20px;
+	padding:20px 20px;
+	width: 600px;
 	line-height: 150%;
+	border: 5px double #FF8000;
+}
+
+div.searchConditionTemp table{
+}
+
+div.searchConditionTemp th{
+	width:150px;
+	height:30px;
+	border-bottom: thin solid #c0c0c0;
+}
+
+div.searchConditionTemp td{
+	width:250px;
+	height:30px;
+	border-bottom: thin solid #c0c0c0;
+}
+
+.buttonCenter{
+	margin-top:10px;
+	text-align: center;
 }
 
 table.listTableTemp{

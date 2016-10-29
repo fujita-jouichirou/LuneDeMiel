@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="../css/common.css">
-<title>はちみつ一括編集_test</title>
+<title>はちみつ一括編集_tes</title>
 </head>
 <body>
 <div class="headerMenuTemp"><h1>メニュー！！！！</h1></div>

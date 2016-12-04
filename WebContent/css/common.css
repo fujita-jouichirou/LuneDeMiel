@@ -30,7 +30,8 @@ table.listTable{
 	margin-right: auto;
 }
 
-/* haraki */
+
+/* --[Start]haraki 追加分-- */
 div.dimly{
 	background-color: #000;
 	width: 100%
@@ -98,3 +99,62 @@ div.view-name:before{
 td.item-name:before{
 	content: url("../Images/honey_icon02.png");
 }
+
+table.info {
+    font-size: 14px;
+}
+
+table.info th, table.info td {
+    padding: 10px;
+}
+
+table.info th {
+    background: #ffc040;
+    color: #FFF;
+    text-align: left;
+    width: auto;
+    overflow: visible;
+    position: relative;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+table.info th:before{
+	content: url("../Images/honey_icon02_b.png");
+}
+
+table.info th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #ffc040;
+    border-width: 7px;
+    margin-top: -7px;
+}
+
+table.info td {
+	background: #ffe080;
+}
+
+button.normal {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 20px;
+    background-color: #0097DB;
+    color: #fff;
+    border-style: none;
+}
+button.normal:hover {
+	cursor: pointer;
+	background-color: #00B9EF;
+}
+button.normal:active{
+	background-color: #005982;
+}
+/* --[End]haraki 追加分-- */

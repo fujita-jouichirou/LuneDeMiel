@@ -75,18 +75,19 @@ table.listTableTemp{
 }
 
 
-/* --[Start]haraki 追加分-- */
-div.dimly{
-	background-color: #000;
-	width: 100%;
-	margin: 0 auto;
-}
 
-div.dimly>div.relative{
+
+/* --[Start]haraki 追加分-- */
+div.modifiable{
+	background-color: #000;
 	position: relative;
 }
 
-div.dimly>div.relative>span.absolute{
+div.modifiable>img{
+	display: block;
+}
+
+div.modifiable>.word{
 	color: #FFF;
 	text-align: center;
 	font-size: 12pt;
@@ -100,11 +101,11 @@ div.dimly>div.relative>span.absolute{
 	visibility: hidden;
 }
 
-div.dimly:hover>div.relative>img{
+div.modifiable:hover>img{
 	opacity: 0.3;
 }
 
-div.dimly:hover>div.relative>span.absolute{
+div.modifiable:hover>.word{
 	position: absolute;
 	top: 50%;
 	left: 50%;

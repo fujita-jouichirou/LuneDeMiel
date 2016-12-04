@@ -12,11 +12,9 @@
 	<div class="view-name">○○編集</div>
 	<div class=main>
 		<div class="content">
-			<div class="dimly" style="float:left">
-				<div class="relative">
-					<img src="../Images/honey01.jpg" />
-					<span class="absolute">画像を変更する</span>
-				</div>
+			<div class="modifiable" style="float:left">
+				<img src="../Images/honey01.jpg" />
+				<span class="word">画像を変更する</span>
 			</div>
 			<div>
 				<table class="info" style="line-height:120%">

@@ -25,10 +25,10 @@
 						<th>値段</th>
 						<td>
 							<span>2,160円/125g</span>
-							<span class="under-bar">(<u>税抜：2,000円</u>)</span>
+							<span>(<u>税抜：2,000円</u>)</span>
 							<br/>
 							<span>3,996円/250g</span>
-							<span class="under-bar">(<u>税抜：3,700円</u>)</span>
+							<span>(<u>税抜：3,700円</u>)</span>
 						</td>
 					</tr>
 					<tr>

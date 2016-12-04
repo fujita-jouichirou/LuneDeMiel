@@ -30,11 +30,55 @@ table.listTable{
 	margin-right: auto;
 }
 
+/* obonai */
+div.searchConditionTemp{
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 20px;
+	padding:20px 20px;
+	width: 600px;
+	line-height: 150%;
+	border: 5px double #FF8000;
+}
+
+div.searchConditionTemp table{
+}
+
+div.searchConditionTemp th{
+	width:150px;
+	height:30px;
+	border-bottom: thin solid #c0c0c0;
+}
+
+div.searchConditionTemp td{
+	width:250px;
+	height:30px;
+	border-bottom: thin solid #c0c0c0;
+}
+
+.buttonCenter{
+	margin-top:10px;
+	text-align: center;
+}
+
+table.listTableTemp{
+	border: medium solid #c0c0c0;
+}
+
+.listTableTemp th{
+	padding : 20px;
+}
+
+.listTableTemp tr{
+	padding : 20px;
+	visibility: visible;
+}
+
 
 /* --[Start]haraki 追加分-- */
 div.dimly{
 	background-color: #000;
-	width: 100%
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -69,7 +113,7 @@ div.dimly:hover>div.relative>span.absolute{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	visibility: visible;
+	visibility:visible;
 }
 
 div.main{

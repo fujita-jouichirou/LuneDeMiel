@@ -3,6 +3,13 @@
 /* fujita */
 table.listTable{
 	border: medium solid #c0c0c0;
+	background-color: white;
+}
+
+.listTable th{
+	border: solid 1px #c0c0c0;
+	background-color: white;
+	padding:10px;
 }
 
 .listTable td{
@@ -13,11 +20,109 @@ table.listTable{
 .headerMenuTemp{
 	width:100%;
 	height:50px;
-	background-color: orange;
-	margin:0px 0px 10px 0px;
-	text-align:center;
-	vertical-align: middle;
+	vertical-align:middle;
+	border: dotted 1px #c0c0c0;
+	background-color: #FFCC66;
+	margin:0px 0px 0px 0px;
 }
+
+.successbutton {
+	width: 70px;
+	text-align: center;
+	border: 1px solid #15aeec;
+	background-color: #49c0f0;
+	background-image: -webkit-linear-gradient(top, #49c0f0, #2cafe3);
+	background-image: linear-gradient(to bottom, #49c0f0, #2cafe3);
+	border-radius: 4px;
+	color: #fff;
+	line-height: 30px;
+	-webkit-transition: none;
+	transition: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.successbutton:hover {
+	border:1px solid #1090c3;
+	background-color: #1ab0ec;
+	background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
+	background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
+}
+.successbutton:active {
+	background: #1a92c2;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
+	color: #1679a1;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+
+.simplebutton {
+	width: 70px;
+	text-align: center;
+	border: 1px solid #ececec;
+	background-color: #f0f0f0;
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #e3e3e3);
+	background-image: linear-gradient(to bottom, #f0f0f0, #e3e3e3);
+	border-radius: 4px;
+	color: #000;
+	line-height: 30px;
+	-webkit-transition: none;
+	transition: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.simplebutton:hover {
+	border:1px solid #c3c3c3;
+	background-color: #ececec;
+	background-image: -webkit-linear-gradient(top, #ececec, #c2c2c2);
+	background-image: linear-gradient(to bottom, #ececec, #c2c2c2);
+}
+.simplebutton:active {
+	background: #c2c2c2;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
+	color: #a1a1a1;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+
+.button {
+	border: 1px solid #ececec;
+	background-color: #f0f0f0;
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #e3e3e3);
+	background-image: linear-gradient(to bottom, #f0f0f0, #e3e3e3);
+	border-radius: 4px;
+	color: #000;
+	line-height: 30px;
+	-webkit-transition: none;
+	transition: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.button:hover {
+	border:1px solid #c3c3c3;
+	background-color: #ececec;
+	background-image: -webkit-linear-gradient(top, #ececec, #c2c2c2);
+	background-image: linear-gradient(to bottom, #ececec, #c2c2c2);
+}
+.button:active {
+	background: #c2c2c2;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
+	color: #a1a1a1;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+
+.headerMenuTemp .headerMenuCellTemp{
+	width:150px;
+	height: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.headerMenuTemp .headerMenuCellTemp:HOVER{
+	letter-spacing: 5px;
+	background-color: #ff9932;
+	transition: all .1s;
+}
+
 
 .bottombutton{
 	width: 100%;
@@ -29,81 +134,6 @@ table.listTable{
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
-
-/* haraki */
-div.dimly{
-	background-color: #000;
-	width: 100%;
-	margin: 0 auto;
-}
-
-div.dimly>div.relative{
-	position: relative;
-}
-
-div.dimly>div.relative>span.absolute{
-	color: #FFF;
-	text-align: center;
-	font-size: 12pt;
-	font-weight: bold;
-	white-space: nowrap;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	buttom: 0px;
-	left: 0px;
-	visibility: hidden;
-}
-
-div.dimly:hover>div.relative>img{
-	opacity: 0.3;
-}
-
-div.dimly:hover>div.relative>span.absolute{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
-	visibility:visible;
-}
-
-div.main{
-	width: 100%;
-	height: 100%;
-}
-
-div.main>div.content{
-	margin: 0px auto 50px auto;
-	width: 90%;
-	padding:15px;
-	border: 5px double #FF8000;
-	background-color: #FFFFa0
-}
-
-div.view-name{
-	margin: 10px;
-	font-size: 20pt;
-}
-
-div.view-name:before{
-	content: url("../Images/honey_icon01.png");
-	position: relative;
-	top: 7px;
-}
-
-td.item-name:before{
-	content: url("../Images/honey_icon02.png");
-}
-
-
-
 
 /* obonai */
 div.searchConditionTemp{
@@ -148,3 +178,133 @@ table.listTableTemp{
 	padding : 20px;
 	visibility: visible;
 }
+
+
+
+
+/* --[Start]haraki 追加分-- */
+div.modifiable{
+	background-color: #000;
+	position: relative;
+}
+
+div.modifiable>img{
+	display: block;
+}
+
+div.modifiable>.word{
+	color: #FFF;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	white-space: nowrap;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	buttom: 0px;
+	left: 0px;
+	visibility: hidden;
+}
+
+div.modifiable:hover>img{
+	opacity: 0.3;
+}
+
+div.modifiable:hover>.word{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	visibility:visible;
+}
+
+div.main{
+	width: 100%;
+	height: 100%;
+}
+
+div.main>div.content{
+	margin: 0px auto 50px auto;
+	width: 90%;
+	padding:15px;
+	border: 5px double #FF8000;
+	background-color: #FFFFa0
+}
+
+div.view-name{
+	margin: 10px;
+	font-size: 20pt;
+}
+
+div.view-name:before{
+	content: url("../Images/honey_icon01.png");
+	position: relative;
+	top: 7px;
+}
+
+td.item-name:before{
+	content: url("../Images/honey_icon02.png");
+}
+
+table.info {
+    font-size: 14px;
+}
+
+table.info th, table.info td {
+    padding: 10px;
+}
+
+table.info th {
+    background: #ffc040;
+    color: #FFF;
+    text-align: left;
+    width: auto;
+    overflow: visible;
+    position: relative;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+table.info th:before{
+	content: url("../Images/honey_icon02_b.png");
+}
+
+table.info th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #ffc040;
+    border-width: 7px;
+    margin-top: -7px;
+}
+
+table.info td {
+	background: #ffe080;
+}
+
+button.normal {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 20px;
+    background-color: #0097DB;
+    color: #fff;
+    border-style: none;
+}
+button.normal:hover {
+	cursor: pointer;
+	background-color: #00B9EF;
+}
+button.normal:active{
+	background-color: #005982;
+}
+/* --[End]haraki 追加分-- */
